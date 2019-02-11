@@ -16,8 +16,8 @@ problem 4:
 
 (b) Use the distributed Foschini-Miljanic algorithm to derive a feasible power solution. Does the algorithm give you the same answer as part (a)?
   Recall that the power update equation for the Foschini-Miljanic algorithm is as follows: 
-                                                    PL(t + 1) = θ PL(t)
-SINRL (t) where PL and SINRL are the power allocated and the SINR for link L, respectively. θ is the minimum required SINR for operation and t represents time. You may initialize PL(0) to 1 mW.
+                                                    PL(t + 1) = (θ / SINRL (t)) * PL(t)
+ where PL and SINRL are the power allocated and the SINR for link L, respectively. θ is the minimum required SINR for operation and t represents time. You may initialize PL(0) to 1 mW.
 
 (c) Draw a plot showing the operating regions for both links, with P1 on the y-axis and P2 on the x-axis. On this same plot show the power allocation chosen for each iteration of the Foschini-Miljanic algorithm. Also draw a plot showing the power allocated for each link vs. time.
 
