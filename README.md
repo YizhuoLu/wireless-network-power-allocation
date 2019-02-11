@@ -1,4 +1,4 @@
-# wireless-network-power-allocatioon
+# wireless-network-power-allocation using Foschini-Miljanic algorithm
 multi-attenas transmission and multi channel power allocation analysis using python
 
 Three problems have been chosen from the whole:
